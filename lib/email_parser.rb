@@ -34,8 +34,6 @@ class EmailParser
     parsed_emails.each do |compare_email|
       if @@all.find{|email| email == compare_email} != compare_email
       @@all << compare_email
-    else
-      compare_email
     end
   end
     
