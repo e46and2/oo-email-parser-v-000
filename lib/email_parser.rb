@@ -39,7 +39,7 @@ class EmailParser
         compare_email
     end
   end
-    @@all
+    #@@all
   end
   
 end
