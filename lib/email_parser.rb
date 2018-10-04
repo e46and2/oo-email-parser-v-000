@@ -31,6 +31,7 @@ class EmailParser
     #binding.pry 
 
     parsed_emails = @emails.split(/[\s,]+/)
+    
     parsed_emails.each do |compare_email|
       if @@all.find{|email| email == compare_email} != compare_email
       @@all << compare_email
