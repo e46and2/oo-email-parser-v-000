@@ -36,7 +36,7 @@ class EmailParser
       @@all << compare_email
     end
   end
-    
+    @@all
   end
   
 end
