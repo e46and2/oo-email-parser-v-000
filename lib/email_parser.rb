@@ -32,13 +32,14 @@ class EmailParser
 
     parsed_emails = @emails.split(/[\s,]+/).uniq 
     
-    parsed_emails.each do |compare_email|
+=begin    parsed_emails.each do |compare_email|
       if @@all.find{|email| email == compare_email} != compare_email
       @@all << compare_email
       
     end
   end
     @@all
+=end
   end
   
 end
